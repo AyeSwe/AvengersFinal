@@ -1,0 +1,141 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Avenger HR System Home</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #000099}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+nav {
+   
+    width: 100%;
+    height: 0px; /* only for demonstration, should be removed */
+    background: #000099;
+    padding: 10px;
+    color: white;
+    
+} 
+/* Style the header */
+ header {
+	
+   background-color:white ;
+    padding: 0px;
+    text-align: center;
+    font-size: 35px;
+    color: black;
+ 
+   
+} 
+
+
+/* Create two columns/boxes that floats next to each other */
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 3;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the footer */
+footer {
+    background-color:  #000099;
+    padding: 0px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+/* @media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+} */
+</style>
+</head>
+<body>
+
+<h2>Avenger Human resource Management System</h2>
+
+<nav> 
+
+
+ <img src="Avengers.png" height="75" width="200"> 
+
+
+</nav>
+<header>
+
+  <h2>Login As </h2>
+  <div class= "button">  
+  <a href="Employee_Login.html"><button class = button>Employee</button></a>
+  <br>
+   <a href="Manager_Login.html"><button class = button>Manager</button></a>
+  <br>
+   <a href="SystemAdmin_Login.html"><button class = button>SystemAdmin</button></a>
+  
+  </div>
+</header>
+
+
+  
+
+  
+  
+
+<footer>
+  <p>Meet our Teams</p>
+			
+			<p>Aye Swe, Chenghui Xue, Junia Ikeh, Rohan Patel, Zhonglin Liang</p>
+</footer>
+
+</body>
+</html>
