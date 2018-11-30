@@ -1,0 +1,55 @@
+
+body
+{
+background: #262626;
+margin: 0;
+padding: 0;
+
+}
+
+ul
+{
+	display: flex;
+	text-align: center;
+	postion: top;
+	top: 50%;
+	left: 50%;
+	
+	
+}
+
+ul li
+{
+	background: #000;
+	margin:50px;
+	list-style: none;
+	font-size:60px;
+	transition: .5s;
+	
+}
+
+ul li a
+{
+ width: 10px;
+ padding: 10px 0;
+ color: #fff;
+ 
+}
+
+ul li:nth-child(1)
+{
+ background: #3b5998;
+} 
+ul li:nth-child(2)
+{
+ background: #00aced;
+} 
+ul li:nth-child(3)
+{
+ background: #dd4b39;
+} 
+ul li:nth-child(4)
+{
+ background: #007bb6;
+} 
+
