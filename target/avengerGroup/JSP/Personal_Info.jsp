@@ -153,12 +153,12 @@ resultSet = statement.executeQuery(sql2);
 if (resultSet.next()){
 
 %>
-
+<p>Employee Desktop</p>
 <ul>
-  <li><a class="active" href="webapp/index.html">Home</a></li>
+  <li><a class="active" href="../index.html">Home</a></li>
   <li><a href="#To-be-build">HR</a></li>
   <li><a href="Employee_Login.html">Log out</a></li>
-  <li> <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+  <li> <a href="../Twitter/index_Twit.html"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 </ul>
 
 
@@ -179,7 +179,7 @@ if (resultSet.next()){
 }
   else{ %>
  
-<a href= "index.html">Wrong user name or password! Please Log in again</a>
+<a href= "../index.html">Wrong user name or password! Please Log in again</a>
 <% }
 
 

@@ -1,0 +1,153 @@
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+	<title>Avengers Twitter API</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+	
+	
+	* {
+		box-sizing: border-box;
+	}
+	
+	body {
+		font-family: Arial, Helvetica, sans-serif;
+		padding: 0px;
+		height: 100%;
+	}
+	
+	header {
+		background-color: white;
+		padding: 20px;
+		text-align: center;
+		font-size: 35px;
+		color: white;
+		height: 90%;
+	}
+	
+	nav {
+		float: left;
+		width: 30%;
+		height: 80%; /* only for demonstration, should be removed */
+		background: white;
+		padding:20px;
+	}
+	
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000099;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #3e8e41;
+}
+
+
+
+
+
+	}
+	
+	nav a {
+		color: white
+	}
+	
+	article {
+		float: right;
+		padding: 50px;
+		width: 70%;
+		background-color: #cf5427;
+		height: 90%; 
+	}
+	
+	section:after {
+		content: "";
+		display: table;
+		clear: both;
+		color: white;
+		padding: 10%;
+	}
+	
+	footer {
+    background-color: #000099;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+	
+	@media ( max-width : 600px) {
+		nav, article {
+			width: 100%;
+			height: auto;
+		}
+	}
+	</style>
+	</head>
+	<body>
+	
+		
+		<header>
+			
+		</header>
+	
+		<section>
+			<nav>
+				<ul>
+					<li style="color: white;"><a href="search.html"
+						target="displayFrame"> Search </a></li>
+						
+					<li style="color: white;"><a href="apiGetFollower.html"
+						target="displayFrame"> Follower </a></li>
+						
+					<li style="color: white;"><a href="trend.html"
+						target="displayFrame"> Trends </a></li>
+						
+					<li style="color: white;"><a href="usertimeline.html"
+						target="displayFrame"> TimeLine </a></li>
+						
+					<li style="color: white;"><a href="Retweet.html"
+						target="displayFrame">ReTweet</a></li>
+						
+					<li style="color: white;"><a href="TrendClosest.html"
+						target="displayFrame"> TrendClosest </a></li>
+						
+					<li style="color: white;"><a href="getUsers.html"
+						target="displayFrame">Users</a></li>
+				</ul>
+			</nav>
+			<article>
+				<h1>Result</h1>
+				<iframe name="displayFrame" style="height: 90%; width: 90%"></iframe>
+			</article>
+		</section>
+	
+		<footer>
+			<p>Meet our Teams</p>
+			
+			<p>Aye Swe, Chenghui Xue, Junia Ikeh, Rohan Patel, Zhonglin Liang</p>
+		</footer>	
+
+	</body>
+	</html>
+	
