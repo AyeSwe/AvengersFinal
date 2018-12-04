@@ -4,7 +4,6 @@ body
 background: #262626;
 margin: 0;
 padding: 0;
-
 }
 
 ul
@@ -14,8 +13,6 @@ ul
 	postion: top;
 	top: 50%;
 	left: 50%;
-	
-	
 }
 
 ul li
@@ -25,7 +22,6 @@ ul li
 	list-style: none;
 	font-size:60px;
 	transition: .5s;
-	
 }
 
 ul li a
