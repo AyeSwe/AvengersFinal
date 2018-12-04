@@ -111,11 +111,11 @@ tr:nth-child(even) {
 }
 </style>
 <%
-//String id = request.getParameter("userId");
+
 String driverName = "com.mysql.jdbc.Driver";
-String connectionUrl = "jdbc:mysql://localhost/employees";
+String connectionUrl = "jdbc:mysql://10.0.2.99/employees";//here change for database server address which should be change in the local mysql database connection****
 //String dbName = "employees";
-String userId = "root";
+String userId = "aye";
 String password = "Enterprise007*";
 
 try {
