@@ -8,13 +8,7 @@
 <link rel = "stylesheet" href ="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <style>
-article {
-		float: right;
-		padding: 50px;
-		width: 70%;
-		background-color: #cf5427;
-		height: 90%; 
-	}
+
 nav ul {
     list-style-type: none;
     padding: 3;
@@ -120,9 +114,9 @@ tr:nth-child(even) {
 <%
 //String id = request.getParameter("userId");
 String driverName = "com.mysql.jdbc.Driver";
-String connectionUrl = "jdbc:mysql://localhost/employees";
+String connectionUrl = "jdbc:mysql://10.0.2.99/employees";
 //String dbName = "employees";
-String userId = "root";
+String userId = "aye";
 String password = "Enterprise007*";
 
 try {
@@ -164,18 +158,11 @@ if (resultSet.next()){
 <ul>
   <li><a class="active" href="../index.html">Home</a></li>
   <li><a href="#To-be-build">HR</a></li>
-  <li><a href="Employee_Login.html">Log out</a></li>
+  <li><a href="../HTML/Employee_Login.html">Log out</a></li>
   <li> <a href="../Twitter/index_Twit.html"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-  <li> <a href="../HTML/GitHub.html"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+  <li> <a href="https://github.com/AyeSwe/AvengersFinal" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
 		
 </ul>
-
-
-
-<article>
-				<h1>Result</h1>
-				<iframe  name="displayFrame" style="height: 90%; width: 90%"></iframe>
-</article>
 
 
 
